@@ -1,0 +1,27 @@
+.navigation {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigation-link {
+  color: #333;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .navigation {
+    height: 5rem;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .navigation-link {
+    font-size: 1.9rem;
+  }
+}

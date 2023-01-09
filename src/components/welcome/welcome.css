@@ -1,0 +1,61 @@
+.welcome {
+  background-color: #495e57;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.welcome-container {
+  max-width: 500px;
+}
+
+.welcome-container h1 {
+  color: #f4ce14;
+  font-size: 56px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.welcome-container p {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Karla", sans-serif;
+}
+
+.welcome-container button {
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  font-family: "Markazi Text", sans-serif;
+  font-size: 24px;
+  background-color: #f4ce14;
+}
+
+.welcome-container button:hover {
+  cursor: pointer;
+  background-color: #f4cf14cd;
+}
+
+.welcome-image {
+  width: 30rem;
+  height: auto;
+  position: relative;
+  top: 60px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .welcome {
+    text-align: center;
+    display: block;
+  }
+
+  .welcome-container {
+    max-width: 100%;
+    margin: 0 40px;
+  }
+
+  .welcome-image {
+    top: 30px;
+    width: 95%;
+  }
+}
